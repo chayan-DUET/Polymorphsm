@@ -8,7 +8,7 @@ package javapolymor;
  *
  * @author Chayan_pc
  */
-public class Mypolymor {
+public class Mypolymor extends Override{
     void fun()
     {
         System.out.println("this is 1st method fun() with out value");
@@ -19,5 +19,9 @@ public class Mypolymor {
        System.out.println("this is 2nd method fun() with value"+x);
    
    }
-    
+    @java.lang.Override
+  void print()
+  {
+      System.out.println("Inside Extend override");
+  }
 }

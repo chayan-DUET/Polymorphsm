@@ -16,8 +16,11 @@ public class JavaPolymor {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        Mypolymor m=new Mypolymor();
-        m.fun();
-       m.fun(10);        //ompile time polymorphic
+      //  Mypolymor m=new Mypolymor();
+       // m.fun();
+      // m.fun(10);        //ompile time polymorphic
+      // m.print();
+       Override m1=new Mypolymor();
+       m1.print();
     }
 }

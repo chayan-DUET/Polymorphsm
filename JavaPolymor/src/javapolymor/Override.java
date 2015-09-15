@@ -9,5 +9,9 @@ package javapolymor;
  * @author Chayan_pc
  */
 public class Override {
+    void print()
+    {
+        System.out.println("Inside override function");
+    }
     
 }
